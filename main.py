@@ -18,9 +18,9 @@ while game_end:
 
         while True:
             
-            print("[1] Attack  [2]Item [3]Shoop")
+            print("[1] Attack  [2]Items [3]Shop")
 
-            player_choice = int(input("Chose you action: "))
+            player_choice = int(input("Choose you action: "))
 
             if player_choice == 1:
                 print("Attack SELECTED")
@@ -28,10 +28,10 @@ while game_end:
             
             elif player_choice == 2:
                 print("Itens SELECTED")
-                print(f"Your itens: {player.get('inventory', 'NONE')}")
+                print(f"Your items: {player.get('inventory', 'NONE')}")
                 print(f"[1] for Healing Potion")
                 print(f"[5] to Leave")
-                items_selected = int(input("Which Itens you wanna use? "))
+                items_selected = int(input("Which Items you wanna use? "))
                 if items_selected == 1:
                     player = funcoes.potion(player)
                     continue
@@ -39,7 +39,7 @@ while game_end:
                     continue
 
             elif player_choice == 3:
-                print("Shope SELECTED")
+                print("Shop SELECTED")
                 player = funcoes.shop(player)
                 print("-" * 40)
                 continue
