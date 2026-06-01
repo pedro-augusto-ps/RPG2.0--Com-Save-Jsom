@@ -18,7 +18,7 @@ while game_end:
 
         while True:
             
-            print("[1] Attack  [2]Items [3]Shop")
+            print("[1] Attack  [2]Items [3]Shop ")
 
             player_choice = int(input("Choose you action: "))
 
