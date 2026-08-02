@@ -33,7 +33,7 @@ With JSON, after killing an enemy your progress is saved, you can LOAD your prog
 On this project, i had to learn about dictionaries, parameters, vectors(lists), JSON, also i test the 'playsound' library.
 I use CLAUDE CODE to help with JSON load / save system ("w" and "r"), some syntax errors and wrong key names.
 
-I learn much on this project and i likeeee it, programming is peak.
+programming is peak.
 
 #THANKS
 
